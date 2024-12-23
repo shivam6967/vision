@@ -3,10 +3,17 @@ import Heading from "./Heading";
 import Section from "./Section";
 import Button from "./Button";
 import Arrow from "../assets/svg/Arrow";
+import { Link , useNavigate} from "react-router-dom";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
 
 const Benefits = () => {
+  // const navigate = useNavigate();
+
+  // const pages = () => {
+  //   navigate('');
+  // };
+
   return (
     <Section id="features">
       <div className="container relative z-2">
@@ -16,7 +23,8 @@ const Benefits = () => {
         />
 
         <div className="flex flex-wrap gap-10 mb-10">
-          {benefits.map((item) => (
+          {benefits.map((item) => (<>
+         
             <div
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
               style={{
@@ -27,18 +35,6 @@ const Benefits = () => {
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
                 <h5 className="h5 mb-5">{item.title}</h5>
                 <p className="body-2 mb-6 text-n-3">{item.text}</p>
-                <div className="flex items-center mt-auto">
-                  {/* <img
-                    src={item.iconUrl}
-                    width={48}
-                    height={48}
-                    alt={item.title}
-                  /> */}
-                  <Button className="hidden lg:flex" href="#login">
-                  Sign in
-                  </Button>
-                  <Arrow />
-                </div>
               </div>
 
               {item.light && <GradientLight />}
@@ -58,11 +54,28 @@ const Benefits = () => {
                     />
                   )}
                 </div>
+                
               </div>
-
+              <div  className="flex flex-col items-center justify-end mt-auto">
+                  {/* <img
+                    src={item.iconUrl}
+                    width={48}
+                    height={48}
+                    alt={item.title}
+                  /> */}
+                    <Link to={item.route}>
+                    <Button >Register</Button>
+                    </Link>
+                 
+                 
+                  <Arrow />
+           
+                </div>
               <ClipPath />
             </div>
+            </>
           ))}
+          
         </div>
       </div>
     </Section>

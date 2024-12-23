@@ -39,36 +39,15 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
+    title: "Events",
     url: "#features",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "Team",
+    url: "#features",
   },
-  {
-    id: "2",
-    title: "How to use",
-    url: "#how-to-use",
-  },
-  {
-    id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
-  },
-  {
-    id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
-  },
+  
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
@@ -92,17 +71,17 @@ export const brainwaveServicesIcons = [
 ];
 
 export const roadmap = [
+  // {
+  //   id: "0",
+  //   title: "Voice recognition",
+  //   text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
+  //   date: "May 2023",
+  //   status: "done",
+  //   imageUrl: roadmap1,
+  //   colorful: true,
+  // },
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
-    status: "done",
-    imageUrl: roadmap1,
-    colorful: true,
-  },
-  {
-    id: "1",
     title: "Gamification",
     text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
     date: "May 2023",
@@ -110,21 +89,21 @@ export const roadmap = [
     imageUrl: roadmap2,
   },
   {
-    id: "2",
+    id: "1",
     title: "Chatbot customization",
     text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
     date: "May 2023",
     status: "done",
     imageUrl: roadmap3,
   },
-  {
-    id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    status: "progress",
-    imageUrl: roadmap4,
-  },
+  // {
+  //   id: "3",
+  //   title: "Integration with APIs",
+  //   text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
+  //   date: "May 2023",
+  //   status: "progress",
+  //   imageUrl: roadmap4,
+  // },
 ];
 
 export const collabText =
@@ -249,6 +228,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
+    route: "/eventone"
   },
   {
     id: "1",
@@ -258,6 +238,7 @@ export const benefits = [
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
+    route: "/eventtwo"
   },
   {
     id: "2",
@@ -266,6 +247,8 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
+    light: true,
+    route: "/eventthree"
   },
   {
     id: "3",
@@ -275,23 +258,9 @@ export const benefits = [
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
     light: true,
+    route: "/eventfour"
   },
-  {
-    id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
-  },
+ 
 ];
 
 export const socials = [
