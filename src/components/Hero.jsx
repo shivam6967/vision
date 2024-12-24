@@ -25,7 +25,7 @@ const Hero = () => {
           <h1 className="h1 mb-6">
           Unleashing Innovation and Creativity Welcome to  {` `}
             <span className="inline-block relative">
-            Vision 2024!{" "}
+            Vision 2025!{" "}
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
