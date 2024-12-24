@@ -7,7 +7,7 @@ import { Link , useNavigate} from "react-router-dom";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
 import { Gradient } from "./design/Hero";
-
+import { curve, heroBackground, robot } from "../assets";
 const Benefits = () => {
   // const navigate = useNavigate();
 
@@ -35,7 +35,19 @@ const Benefits = () => {
                 key={item.id}
               >
                 <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none ">
-                  <h4 className="h3 mb-5">{item.title}</h4>
+                  <h4 className="h3 mb-5">
+
+                    <span className="inline-block relative">
+                               {item.title}{" "}
+                                  <img
+                                    src={curve}
+                                    className="absolute top-full left-0 w-full xl:-mt-2"
+                                    width={624}
+                                    height={28}
+                                    alt="Curve"
+                                  />
+                                </span>
+                  </h4>
                   <p className="body-2 mb-6 text-n-3">{item.text}</p>
                   <p className="text-purple-200">{item.extra}</p>
                 </div>
