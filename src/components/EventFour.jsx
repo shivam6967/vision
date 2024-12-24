@@ -66,7 +66,7 @@ const Roadmap = () => (
         <Gradient />
       </div>
       <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
-        <Button className="bg-black rounded-xl text-white border border-purple-500 text-xl" href="/roadmap">Enter the Digital Battlefield </Button>
+        <Button className="bg-black rounded-xl text-white border border-purple-500 text-xl" href="/roadmap">Register Now</Button>
         <Arrow/>
         
       </div>
