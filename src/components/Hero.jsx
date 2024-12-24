@@ -25,7 +25,7 @@ const Hero = () => {
           <h1 className="h1 mb-6">
           Unleashing Innovation and Creativity Welcome to  {` `}
             <span className="inline-block relative">
-            Vision 2025!{" "}
+            Vision 2025 by WCE{" "}
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
@@ -36,7 +36,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-          Vision is the flagship tech event of our college, bringing together innovation and a passion for technology . Join us in this celebration of knowledge and innovation!
+          Vision is the flagship tech event of Walchand College of Engineering Sangli, bringing together innovation and a passion for technology. Join us in this celebration of knowledge and innovation!
           </p>
           <Button href="#features" white>
             Get started

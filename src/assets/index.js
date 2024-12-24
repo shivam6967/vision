@@ -1,4 +1,4 @@
-import brainwave from "./wceLogo.png";
+import brainwave from "./collegeLogo.jpg";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
