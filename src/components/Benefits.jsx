@@ -19,7 +19,7 @@ const Benefits = () => {
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="Chat Smarter, Not Harder with Brainwave"
+          title="Vision 2024 – Inspiring Minds, Igniting Innovation."
         />
 
         <div className="flex flex-wrap gap-10 mb-10">
@@ -33,8 +33,9 @@ const Benefits = () => {
               key={item.id}
             >
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
-                <h5 className="h5 mb-5">{item.title}</h5>
+                <h4 className="h3 mb-5">{item.title}</h4>
                 <p className="body-2 mb-6 text-n-3">{item.text}</p>
+                <p className="text-purple-200">{item.extra}</p>
               </div>
 
               {item.light && <GradientLight />}
@@ -64,11 +65,12 @@ const Benefits = () => {
                     alt={item.title}
                   /> */}
                     <Link to={item.route}>
-                    <Button >Register</Button>
+                    <Button >{item.buttontext}</Button>
+                    
+                  <Arrow />
                     </Link>
                  
-                 
-                  <Arrow />
+                
            
                 </div>
               <ClipPath />

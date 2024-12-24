@@ -67,8 +67,8 @@ const Header = () => {
           <HamburgerMenu />
         </nav>
 
-        <Button className="hidden lg:flex" href="#login">
-          Sign in
+        <Button className="hidden lg:flex" href="#features">
+          Resister For Event 
         </Button>
 
         <Button
