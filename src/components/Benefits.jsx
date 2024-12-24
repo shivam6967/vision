@@ -20,7 +20,7 @@ const Benefits = () => {
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="Vision 2025 – Inspiring Minds, Igniting Innovation."
+          title="Inspiring Minds, Igniting Innovation! Register now for these exciting events."
         />
 
         <div className="flex flex-wrap gap-10 mb-10">

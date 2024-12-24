@@ -36,7 +36,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-          Unleashing Innovation and Creativity Welcome to Vision 2025 the flagship tech event of <b className="text-2xl">Walchand College of Engineering Sangli</b>, bringing together innovation and a passion for technology. Join us in this celebration of knowledge and innovation!
+          Unleashing Innovation and Creativity Welcome to Vision 2025 the flagship tech event of <b className="text-xl">Walchand College of Engineering Sangli</b>, bringing together innovation and a passion for technology. Join us in this celebration of knowledge and innovation!
           </p>
           <Button href="#features" white>
             Get started
