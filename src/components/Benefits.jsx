@@ -6,6 +6,7 @@ import Arrow from "../assets/svg/Arrow";
 import { Link , useNavigate} from "react-router-dom";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
+import { Gradient } from "./design/Hero";
 
 const Benefits = () => {
   // const navigate = useNavigate();
@@ -23,60 +24,62 @@ const Benefits = () => {
         />
 
         <div className="flex flex-wrap gap-10 mb-10">
-          {benefits.map((item) => (<>
-         
-            <div
-              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
-              style={{
-                backgroundImage: `url(${item.backgroundUrl})`,
-              }}
-              key={item.id}
-            >
-              <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
-                <h4 className="h3 mb-5">{item.title}</h4>
-                <p className="body-2 mb-6 text-n-3">{item.text}</p>
-                <p className="text-purple-200">{item.extra}</p>
-              </div>
-
-              {item.light && <GradientLight />}
+          {benefits.map((item) => {
+            return (<>
 
               <div
-                className="absolute inset-0.5 bg-n-8"
-                style={{ clipPath: "url(#benefits)" }}
+                className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
+                style={{
+                  backgroundImage: `url(${item.backgroundUrl})`,
+                }}
+                key={item.id}
               >
-                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
-                  {item.imageUrl && (
-                    <img
-                      src={item.imageUrl}
-                      width={380}
-                      height={362}
-                      alt={item.title}
-                      className="w-full h-full object-cover"
-                    />
-                  )}
+                <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none ">
+                  <h4 className="h3 mb-5">{item.title}</h4>
+                  <p className="body-2 mb-6 text-n-3">{item.text}</p>
+                  <p className="text-purple-200">{item.extra}</p>
                 </div>
-                
-              </div>
-              <div  className="flex flex-col items-center justify-end mt-auto">
+
+                 <GradientLight />
+
+                <div
+                  className="absolute inset-0.5 bg-n-8"
+                  style={{ clipPath: "url(#benefits)" }}
+                >
+                  <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
+                    {item.imageUrl && (
+                      <img
+                        src={item.imageUrl}
+                        width={380}
+                        height={362}
+                        alt={item.title}
+                        className="w-full h-full object-cover" />
+                    )}
+                  </div>
+
+                </div>
+                <div className="flex flex-col items-center justify-end mt-auto">
                   {/* <img
-                    src={item.iconUrl}
-                    width={48}
-                    height={48}
-                    alt={item.title}
-                  /> */}
-                    <Link to={item.route}>
-                    <Button >{item.buttontext}</Button>
-                    
-                  <Arrow />
-                    </Link>
-                 
-                
-           
+          src={item.iconUrl}
+          width={48}
+          height={48}
+          alt={item.title}
+        /> */}
+                  <Link to={item.route}>
+                    <Button>{item.buttontext}</Button>
+
+                    <Arrow />
+                  </Link>
+
+
+
                 </div>
-              <ClipPath />
-            </div>
+                <ClipPath />
+         
+              </div>
             </>
-          ))}
+            );
+          })}
           
         </div>
       </div>
