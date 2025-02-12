@@ -47,7 +47,7 @@ export const navigation = [
     title: "Team",
     url: "#features",
   },
-  
+
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
@@ -73,92 +73,92 @@ export const brainwaveServicesIcons = [
 // Events data :=> 
 
 
-  export const roadmapthree = [
-    {
-      id: "0",
-      title: "Description",
-      text: "TDive into the thrilling world of cybersecurity with Cybermind. This event is designed to challenge your analytical and problem-solving skills. From cryptography to forensics, tackle real-world scenarios and prove your mettle. Whether you’re cracking codes, solving mysteries, or defending against cyber threats, Cybermind is the ultimate test for the sharpest minds!",
-      date: "",
-      status: "progress",
-      imageUrl: roadmap2,
-      textone: "Why to Participate?",
-      texttwo: "Test Your Limits: Push your skills in a series of complex cybersecurity challenges.",
-      textthree: "Learn From the Best: Gain insights from experts in the field of digital security.",
-      textfour: "Prove Your Worth: Compete for the title of Cybermind Champion and earn recognition."
-    },
-    {
-      id: "1",
-      title: "Key Highlights:",
-      text: "Cybermind is your gateway to the exciting realm of cybersecurity. From decoding cryptic messages to defending systems against cyber threats.",
-      date: "",
-      status: "done",
-      imageUrl: roadmap3,
-      textone:"Events" ,
-      texttwo: "Decryption Battles: Crack codes and unveil hidden secrets in cryptography challenges.",
-      textthree: " Forensic Frenzy: Solve cyber mysteries with cutting-edge investigative techniques.",
-      textfour: "Defense Masters: Protect digital systems from simulated cyberattacks in real-time."
-    },
-  ];
+export const roadmapthree = [
+  {
+    id: "0",
+    title: "Event 1 - Code Clash",
+    text: "Showcase your coding expertise in this high-intensity competition! Solve algorithmic challenges, optimize your code, and race against time to secure the top spot.",
+    date: "",
+    status: "progress",
+    imageUrl: roadmap2,
+    textone: "Event Details",
+    texttwo: "Format: Solve 6-8 coding problems of increasing difficulty within a set time limit.",
+    textthree: "Platform & Judging: Hosted on Codeforces, with rankings based on accuracy, efficiency, and speed. Participation is strictly from the venue.",
+    textfour: "Date: 14th - 15th March 2025"
+  },
+  {
+    id: "1",
+    title: "Event 2 - Bug Hunt",
+    text: "Put your debugging skills to the test in this thrilling challenge! Analyze faulty code, identify hidden bugs, and fix them efficiently to prove your mastery in debugging.",
+    date: "",
+    status: "done",
+    imageUrl: roadmap3,
+    textone: "Event Details",
+    texttwo: "Format: Solve multiple buggy code challenges by identifying and fixing errors within a set time.",
+    textthree: "Participation is strictly from the venue.",
+    textfour: "Date: 14th - 15th March 2025" 
+  }
+];
 
 
-  export const roadmaptwo = [
-    {
-      id: "0",
-      title: "Description",
-      text: "Technozion, hosted by Walchand College of Engineering, Sangli, in VISION 2025, is a premier technical event uniting innovative minds nationwide. Its flagship Hackathon and Ideathon challenge participants to develop groundbreaking solutions to real-world problems. With activities for coders, designers, and visionaries, Technozion fosters collaboration, creativity, and technological innovation. Join to showcase your skills and turn ideas into impactful realities!",
-      date: "",
-      status: "progress",
-      imageUrl: roadmap2,
-      textone: "Why to Participate?",
-      texttwo: "Collaborate with the Best: Work with talented minds to solve pressing problems.",
-      textthree: "Learn and Grow: Gain hands-on experience and mentorship from industry professionals.",
-      textfour: "Make an Impact: Develop solutions that address real-world issues and create change."
-    },
-    {
-      id: "1",
-      title: "Key Highlights:",
-      text: "This is the ultimate platform for tech enthusiasts to collaborate, innovate, and create. Participate in hackathons, solve real-world challenges, and work alongside peers who share your passion for problem-solving.",
-      date: "",
-      status: "done",
-      imageUrl: roadmap3,
-      textone:"Events" ,
-      texttwo: "Coding Competitions: Show off your programming prowess in high-stakes contests.",
-      textthree: " Hackathons: Build innovative projects and compete for the top spot.",
-      textfour: "Team Collaborations: Work together to tackle challenges and create solutions."
-    },
-  ];
-  
+export const roadmaptwo = [
+  {
+    id: "0",
+    title: "Description",
+    text: "Technozion, hosted by Walchand College of Engineering, Sangli, in VISION 2025, is a premier technical event uniting innovative minds nationwide. Its flagship Hackathon and Ideathon challenge participants to develop groundbreaking solutions to real-world problems. With activities for coders, designers, and visionaries, Technozion fosters collaboration, creativity, and technological innovation. Join to showcase your skills and turn ideas into impactful realities!",
+    date: "",
+    status: "progress",
+    imageUrl: roadmap2,
+    textone: "Why to Participate?",
+    texttwo: "Collaborate with the Best: Work with talented minds to solve pressing problems.",
+    textthree: "Learn and Grow: Gain hands-on experience and mentorship from industry professionals.",
+    textfour: "Make an Impact: Develop solutions that address real-world issues and create change."
+  },
+  {
+    id: "1",
+    title: "Key Highlights:",
+    text: "This is the ultimate platform for tech enthusiasts to collaborate, innovate, and create. Participate in hackathons, solve real-world challenges, and work alongside peers who share your passion for problem-solving.",
+    date: "",
+    status: "done",
+    imageUrl: roadmap3,
+    textone: "Events",
+    texttwo: "Coding Competitions: Show off your programming prowess in high-stakes contests.",
+    textthree: " Hackathons: Build innovative projects and compete for the top spot.",
+    textfour: "Team Collaborations: Work together to tackle challenges and create solutions."
+  },
+];
 
 
 
 
-  export const roadmapone = [
-    {
-      id: "0",
-      title: "Description",
-      text: "Expo Tech is more than an event—it’s a platform to showcase your genius. Whether you’ve built a revolutionary gadget, designed futuristic software, or crafted a visionary project, this is your chance to shine. Be inspired. Make a difference.",
-      date: "",
-      status: "progress",
-      imageUrl: roadmap2,
-      textone: "Why to Participate?",
-      texttwo: "Showcase Your Talent: Share your projects and innovations with a wide audience.",
-      textthree: "Get Inspired: Witness extraordinary innovations and learn from others.",
-      textfour: "Recognition and Rewards: Compete for prestigious awards and recognition from esteemed judges."
-    },
-    {
-      id: "1",
-      title: "Key Highlights:",
-      text: "Dive into the thrilling world of cybersecurity with Cybermind. This event is designed to challenge your analytical and problem-solving skills. From cryptography to forensics, tackle real-world scenarios and prove your mettle.",
-      date: "",
-      status: "done",
-      imageUrl: roadmap3,
-      textone:"Events" ,
-      texttwo: "Project Exhibits: Present your work in an engaging and interactive environment.",
-      textthree: " Tech Talks and Seminars: Learn from industry leaders and tech gurus.",
-      textfour: "Innovation Awards: Compete for accolades and funding opportunities"
-    },
-  ];
-  
+
+export const roadmapone = [
+  {
+    id: "0",
+    title: "Description",
+    text: "Expo Tech is more than an event—it’s a platform to showcase your genius. Whether you’ve built a revolutionary gadget, designed futuristic software, or crafted a visionary project, this is your chance to shine. Be inspired. Make a difference.",
+    date: "",
+    status: "progress",
+    imageUrl: roadmap2,
+    textone: "Why to Participate?",
+    texttwo: "Showcase Your Talent: Share your projects and innovations with a wide audience.",
+    textthree: "Get Inspired: Witness extraordinary innovations and learn from others.",
+    textfour: "Recognition and Rewards: Compete for prestigious awards and recognition from esteemed judges."
+  },
+  {
+    id: "1",
+    title: "Key Highlights:",
+    text: "Dive into the thrilling world of cybersecurity with Cybermind. This event is designed to challenge your analytical and problem-solving skills. From cryptography to forensics, tackle real-world scenarios and prove your mettle.",
+    date: "",
+    status: "done",
+    imageUrl: roadmap3,
+    textone: "Events",
+    texttwo: "Project Exhibits: Present your work in an engaging and interactive environment.",
+    textthree: " Tech Talks and Seminars: Learn from industry leaders and tech gurus.",
+    textfour: "Innovation Awards: Compete for accolades and funding opportunities"
+  },
+];
+
 
 
 
@@ -183,7 +183,7 @@ export const roadmap = [
     date: "",
     status: "done",
     imageUrl: roadmap3,
-    textone:"Events" ,
+    textone: "Events",
     texttwo: "Robot Wars: Build and control battle-ready bots and fight for supremacy in the arena.",
     textthree: " Autonomous Challenges: Test your AI-driven bots in obstacle courses and precision tasks.",
     textfour: "Innovative Projects: Present your creative robotic solutions to real-world problems."
@@ -341,16 +341,18 @@ export const benefits = [
   {
     id: "3",
     title: "Cybermind",
-    text: "Test your skills in cybersecurity with thrilling challenges. Solve mysteries, crack codes, and become a defender of the digital realm.",
+    text: "Step into Cybermind, where coding prowess meets problem-solving mastery! Tackle intense challenges that test your algorithms, logic, and debugging skills. Only the sharpest minds will conquer this ultimate coding battle.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
-    iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
+    iconUrl: benefitIcon4,
     light: true,
     route: "/eventfour",
-    buttontext: "Conquer Cybermind",
-    extra: " Decode the Digital World at Cybermind!",
-  },
- 
+    buttontext: "Enter Cybermind",
+    extra: "Code Smart. Debug Faster. Dominate Cybermind!"
+  }
+
+
+
 ];
 
 export const socials = [
