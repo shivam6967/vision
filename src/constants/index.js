@@ -77,27 +77,29 @@ export const roadmapthree = [
   {
     id: "0",
     title: "Event 1 - Code Clash",
-    text: "Showcase your coding expertise in this high-intensity competition! Solve algorithmic challenges, optimize your code, and race against time to secure the top spot.",
-    date: "",
+    text: "A thrilling competitive programming contest where participants solve algorithmic challenges to test their speed and efficiency.",
+    date: "14th - 15th March 2025",
     status: "progress",
     imageUrl: roadmap2,
-    textone: "Event Details",
-    texttwo: "Format: Solve 6-8 coding problems of increasing difficulty within a set time limit.",
-    textthree: "Platform & Judging: Hosted on Codeforces, with rankings based on accuracy, efficiency, and speed. Participation is strictly from the venue.",
+    textone: "Details :",
+    texttwo: "Mode: Offline – Participants must compete from the venue.",
+    textthree: "Challenge: Solve algorithmic problems of varying difficulty within the given time.",
     textfour: "Date: 14th - 15th March 2025"
   },
   {
     id: "1",
-    title: "Event 2 - Bug Hunt",
-    text: "Put your debugging skills to the test in this thrilling challenge! Analyze faulty code, identify hidden bugs, and fix them efficiently to prove your mastery in debugging.",
-    date: "",
+    title: "Event 2 - Reverse Coding",
+    text: "Crack the code by uncovering the hidden logic behind given outputs. A unique problem-solving challenge that tests logical deduction and analytical thinking.",
+    date: "14th - 15th March 2025",
     status: "done",
     imageUrl: roadmap3,
-    textone: "Event Details",
-    texttwo: "Format: Solve multiple buggy code challenges by identifying and fixing errors within a set time.",
-    textthree: "Participation is strictly from the venue.",
-    textfour: "Date: 14th - 15th March 2025" 
+    textone: "Details :",
+    texttwo: "Mode: Offline – Participants must compete from the venue.",
+    textthree: "Challenge: Analyze input-output patterns and deduce the original logic.",
+    textfour: "Date: 14th - 15th March 2025"
   }
+
+
 ];
 
 
@@ -341,16 +343,15 @@ export const benefits = [
   {
     id: "3",
     title: "Cybermind",
-    text: "Step into Cybermind, where coding prowess meets problem-solving mastery! Tackle intense challenges that test your algorithms, logic, and debugging skills. Only the sharpest minds will conquer this ultimate coding battle.",
+    text: "Enter Cybermind – the arena where coding brilliance meets analytical sharpness! Compete in high-stakes programming challenges designed to test your problem-solving, logic, and debugging skills. Only the best will rise to the top!",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     imageUrl: benefitImage2,
     iconUrl: benefitIcon4,
     light: true,
     route: "/eventfour",
-    buttontext: "Enter Cybermind",
-    extra: "Code Smart. Debug Faster. Dominate Cybermind!"
+    buttontext: "Join Cybermind",
+    extra: "Think Fast. Code Smarter. Conquer Cybermind!"
   }
-
 
 
 ];
