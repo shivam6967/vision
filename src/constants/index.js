@@ -76,7 +76,7 @@ export const brainwaveServicesIcons = [
 export const roadmapthree = [
   {
     id: "0",
-    title: "Event 1 - Code Clash",
+    title: "Event 1 - AlgoArena",
     text: "A thrilling competitive programming contest where participants solve algorithmic challenges to test their speed and efficiency.",
     date: "14th - 15th March 2025",
     status: "progress",
@@ -84,19 +84,21 @@ export const roadmapthree = [
     textone: "Details :",
     texttwo: "Mode: Offline – Participants must compete from the venue.",
     textthree: "Challenge: Solve algorithmic problems of varying difficulty within the given time.",
-    textfour: "Date: 14th - 15th March 2025"
+    textfour: "Date: 14th - 15th March 2025",
+    registerLink: "https://unstop.com/p/cybermind-algoarena-walchand-college-of-enginnering-1402900",
   },
   {
     id: "1",
-    title: "Event 2 - Reverse Coding",
+    title: "Event 2 - CodeForensics",
     text: "Crack the code by uncovering the hidden logic behind given outputs. A unique problem-solving challenge that tests logical deduction and analytical thinking.",
     date: "14th - 15th March 2025",
-    status: "done",
+    status: "done", 
     imageUrl: roadmap3,
     textone: "Details :",
     texttwo: "Mode: Offline – Participants must compete from the venue.",
     textthree: "Challenge: Analyze input-output patterns and deduce the original logic.",
-    textfour: "Date: 14th - 15th March 2025"
+    textfour: "Date: 14th - 15th March 2025",
+    registerLink: "https://unstop.com/p/cybermind-codeforensics-walchand-college-of-enginnering-1402909",
   }
 
 
@@ -343,7 +345,7 @@ export const benefits = [
   {
     id: "3",
     title: "Cybermind",
-    text: "Enter Cybermind – the arena where coding brilliance meets analytical sharpness! Compete in high-stakes programming challenges designed to test your problem-solving, logic, and debugging skills. Only the best will rise to the top!",
+    text: "The battleground where Competitive Programming meets Reverse Coding! Solve algorithmic challenges with speed and efficiency, or decode hidden logic from outputs. Sharpen your problem-solving skills and prove your dominance!",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     imageUrl: benefitImage2,
     iconUrl: benefitIcon4,

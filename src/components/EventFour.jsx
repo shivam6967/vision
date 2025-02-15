@@ -86,21 +86,25 @@ const Roadmap = () => (
                                         </li>
                                     </ul>
                                 </div>
+
+                                <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
+                                    <Button
+                                        className="bg-black rounded-xl text-white border border-purple-500 text-xl"
+                                        onClick={() => {
+                                            window.open(
+                                                item.registerLink,
+                                                "_blank"
+                                            );
+                                        }}
+                                    >
+                                        Register Now
+                                    </Button>
+                                </div>
                             </div>
                         </div>
                     );
                 })}
-
                 <Gradient />
-            </div>
-            <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
-                <Button
-                    className="bg-black rounded-xl text-white border border-purple-500 text-xl"
-                    href="https://forms.gle/jUvmhwcj7t6H5UqV9"
-                >
-                    Register Now
-                </Button>
-                <Arrow />
             </div>
         </div>
     </Section>
