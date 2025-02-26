@@ -101,7 +101,7 @@ export const roadmapthree2 = [
       "Challenge: Solve real-world challenges with groundbreaking ideas, collaborate with like-minded visionaries, and make an impact.",
     textfour: "15th March 2025",
     registerLink:
-      "https://unstop.com/p/cybermind-codeforensics-walchand-college-of-enginnering-1405527",
+      "https://unstop.com/p/ideathon-walchand-college-of-engineering-wce-sangli-1412525",
   },
 ];
 
