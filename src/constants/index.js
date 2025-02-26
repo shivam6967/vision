@@ -76,17 +76,18 @@ export const roadmapthree2 = [
   {
     id: "0",
     title: "Event 1 - Capture The Flag (CTF)",
-    text: "Participants will tackle a range of challenges, from basic Linux command tasks to more advanced problems involving system exploitation. The online round will allow you to compete from anywhere, while the offline round at WCE Sangli will bring the top teams together for a live, interactive experience. It’s the perfect chance to enhance your technical skills, work in teams, and compete with like-minded enthusiasts. Don’t miss out on the chance to showcase your abilities and win exciting prizes! Stay tuned for more details and registration information.",
+    text: "Participants will face a series of challenges, ranging from fundamental Linux command-line tasks to advanced security and system exploitation problems. The competition kicks off with an online round, open to participants worldwide, followed by an exclusive offline round at WCE Sangli, where top contenders will compete in a high-intensity, live environment. This is your chance to test your problem-solving skills, enhance your technical expertise, and compete against some of the best minds in the field. Exciting prizes and recognition await the top performers!",
     date: "14th March 2025",
     status: "progress",
     imageUrl: roadmap1,
     textone: "Details :",
-    texttwo: "Mode: Offline – Participants must compete from the venue.",
+    texttwo:
+      "Mode: Online & Offline – The online round is open to all, while the offline round will be held at WCE Sangli for top qualifiers.",
     textthree:
-      "Challenge : Get ready for an exciting and challenging Capture The Flag (CTF) competition in event Technozion, at WCE Sangli under VISION 2025",
-    textfour: "Date: 14th March 2025",
+      "Prizes :   Cash rewards, certificates, and exclusive recognition for top participants. Think you have what it takes to capture the flag and claim root access?",
+    textfour: "Date: 14th & 15th March 2025",
     registerLink:
-      "https://unstop.com/p/cybermind-algoarena-walchand-college-of-enginnering-1405540",
+      "https://unstop.com/p/capture-the-flag-vision-2025-walchand-college-of-engineering-wce-sangli-1412498?lb=Sj6qyykq",
   },
   {
     id: "1",
@@ -175,7 +176,7 @@ export const roadmapone = [
   {
     id: "0",
     title: "Description",
-    text: "Expo Tech is more than an event—it’s a platform to showcase your genius. Whether you’ve built a revolutionary gadget, designed futuristic software, or crafted a visionary project, this is your chance to shine. Be inspired. Make a difference.",
+    text: "ExpoTech is the ultimate platform for aspiring innovators, engineers, and tech enthusiasts to present their groundbreaking projects. It offers students an opportunity to bring their ideas to life and display their work to a wide audience, including industry professionals, investors, and academic experts. Whether it's software solutions, hardware innovations, AI-powered applications, IoT systems, or sustainability-driven technologies, ExpoTech welcomes all forms of innovation!",
     date: "",
     status: "progress",
     imageUrl: roadmap2,
@@ -190,7 +191,7 @@ export const roadmapone = [
   {
     id: "1",
     title: "Key Highlights:",
-    text: "Dive into the thrilling world of cybersecurity with Cybermind. This event is designed to challenge your analytical and problem-solving skills. From cryptography to forensics, tackle real-world scenarios and prove your mettle.",
+    text: "Participants will have the chance to engage with experts, receive valuable feedback, and even secure opportunities for mentorship, funding, or further development. The event fosters collaboration, networking, and knowledge exchange, making it an unmissable experience for future innovators.",
     date: "",
     status: "done",
     imageUrl: roadmap3,
@@ -366,13 +367,13 @@ export const benefits = [
   {
     id: "1",
     title: "Expo Tech",
-    text: "Explore cutting-edge innovations and extraordinary projects that redefine the future of technology. A showcase for the brightest minds and their creations.",
+    text: "ExpoTech, a premier project exhibition event at Walchand College of Engineering, Sangli, is part of the VISION 2025 event. It provides a platform for students to showcase their innovative projects across various domains, demonstrating creativity, technical expertise, and problem-solving skills.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
     route: "/eventtwo",
     buttontext: "Discover Expo Tech",
-    extra: "Step into the Future at Expo Tech",
+    extra: "Showcasing Innovation & Creativity",
   },
   {
     id: "2",

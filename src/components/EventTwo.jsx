@@ -66,7 +66,7 @@ const Roadmap = () => (
         <Gradient />
       </div>
       <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
-        <Button className="bg-black rounded-xl text-white border border-purple-500 text-xl" href="https://forms.gle/Z55rkNKGrW2DutuZ9">Register Now</Button>
+        <Button className="bg-black rounded-xl text-white border border-purple-500 text-xl" href="https://docs.google.com/forms/d/e/1FAIpQLSeJk9c_Q-1TrZ69F-VVHjyb8tejjPym5rvJ5IObq8IfFvdaDQ/viewform?fbzx=-4823284356276070809">Register Now</Button>
         <Arrow/>
       </div>
     </div>
