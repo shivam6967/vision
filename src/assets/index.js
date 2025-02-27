@@ -76,6 +76,7 @@ import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 export { default as robo } from "./robo.png";
 export { default as vision } from "./vision-main.jpg";
+export { default as visionnew } from "./vision-new.png";
 export {
   brainwave,
   check,

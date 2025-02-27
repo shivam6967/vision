@@ -8,7 +8,8 @@ import { useRef } from "react";
 import Generating from "./Generating";
 import Notification from "./Notification";
 // import robo from "../assets/robo.png";
-import { vision } from "../assets";
+// import { vision } from "../assets";
+import { visionnew } from "../assets";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -45,7 +46,7 @@ const Hero = () => {
 
           <div className="w-full flex justify-center">
                 <img
-                  src={vision}
+                  src={visionnew}
                   alt="Main Poster"
                   className="mt-10 w-full max-w-4xl object-contain rounded-lg shadow-lg "
                   />
